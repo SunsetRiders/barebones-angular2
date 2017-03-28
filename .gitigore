@@ -10,10 +10,6 @@ Thumbs.db
 .Spotlight-V100
 .Trashes
 
-#vim and tern
-.tern-project
-*.swp
-
 ### Application specific files
 # Logs
 *.log
@@ -30,21 +26,42 @@ build/Release
 node_modules
 bower_components
 
-# Sass cache files
-.sass-cache
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+testem.log
+/typings
 
 # App local environment configuration
 .env
 
-# Compiled files
-public
-*.css
-*.css.map
-rev-manifest.json
-dist/
-/coverage/
+# compiled output
+/dist
+/tmp
+/out-tsc
 
-# RethinkDB
-rethinkdb_data/
-rethinkdb_data/log_file
-rethinkdb_data/metadata
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+# vim and tern
+.tern-project
+*.swp
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# e2e
+/e2e/*.js
+/e2e/*.map
