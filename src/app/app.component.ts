@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
 
+import '../assets/css/styles.css';
+
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
+  selector: 'my-app',
+  templateUrl: './app.component.pug',
   styleUrls: ['./app.component.sass']
 })
-export class AppComponent {
-  title = 'app works!';
-}
+export class AppComponent { }
